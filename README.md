@@ -5,7 +5,7 @@ integrate tickettoaster products list into your website
 ... by simply loading the library
 
 ```html
-    <script src="https://cdn.jsdelivr.net/gh/guischdi/tickettoasts/tickettoasts.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/guischdi/tickettoasts@1/tickettoasts.js"></script>
 ```
 ... and invoking it
 
@@ -22,7 +22,7 @@ Of course your permitted to download the js and css files from the repository an
 ... the list (it's just a bunch `<a />` elements actually) to your needs, or use our tickettoaster-styled css
 
 ```html
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/guischdi/tickettoasts/tickettoasts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/guischdi/tickettoasts@1/tickettoasts.css">
 ```
 
 ## config
