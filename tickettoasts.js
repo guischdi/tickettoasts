@@ -89,7 +89,7 @@ function htmlTickettoast(product, config = tickettoastsDefaultConfig) {
     [title, hr, subtitle, button].forEach(el => caption.appendChild(el));
 
     const tickettoast = document.createElement('a');
-    tickettoast.href = product.url;
+    tickettoast.href = product.event_id ? `${config.fetch.host}/events/${product.event_id}` : product.url;
     tickettoast.target = config.html.linkTarget;
     tickettoast.classList.add('tickettoast');
     [label, imagewrapper, caption].forEach(el => tickettoast.appendChild(el));
